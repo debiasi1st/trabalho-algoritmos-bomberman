@@ -10,7 +10,7 @@
 
 using namespace std;
 
-
+// Equipe: Gabriel Debiasi Meurer, Pedro, Victor Alexandre
 int main()
 {
     srand((unsigned)time(NULL));
