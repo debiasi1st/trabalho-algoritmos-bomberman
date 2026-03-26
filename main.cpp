@@ -10,7 +10,7 @@
 
 using namespace std;
 
-// Equipe: Gabriel Debiasi Meurer, Pedro, Victor Alexandre
+// Equipe: Gabriel Debiasi Meurer, Pedro Henrique Rondon, Victor Alexandre Andrade 
 int main()
 {
     srand((unsigned)time(NULL));
