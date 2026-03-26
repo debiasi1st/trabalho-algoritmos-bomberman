@@ -201,15 +201,15 @@ int main()
 
         // Desenha inimigo, bomba e explosao por cima do mapa
         if (inimigoVivo) {
-            cursorAux.X = inimigoY; // define onde a posição x do cursor deve se posicionar para desenhar o inimigo.
-            cursorAux.Y = inimigoX; // define onde a posição y do cursor deve se posicionar para desenhar o inimigo.
+            cursorAux.X = inimigoY; // define onde a posição do cursor deve se posicionar para desenhar o inimigo.
+            cursorAux.Y = inimigoX; // define onde a posição do cursor deve se posicionar para desenhar o inimigo.
             SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorAux);
             cout << "&";
         }
 
         if (bombaAtiva) {
-            cursorAux.X = bombaY; // define onde a posição y do cursor deve se posicionar para desenhar a bomba.
-            cursorAux.Y = bombaX; // define onde a posição x do cursor deve se posicionar para desenhar a bomba.
+            cursorAux.X = bombaY; // define onde a posição do cursor deve se posicionar para desenhar a bomba.
+            cursorAux.Y = bombaX; // define onde a posição do cursor deve se posicionar para desenhar a bomba.
             SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorAux);
             cout << "o";
         }
