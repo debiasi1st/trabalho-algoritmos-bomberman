@@ -237,7 +237,7 @@ int main()
             tecla = getch(); // pega o código da tecla pressionada.
 
             // tratamento de setas
-            if (tecla == 0 || tecla == (char)224) { // se for seta, o getch() precisa ser chamado duas vezes para pegar o código completo
+            if (tecla == 0 || tecla == (char)224) { // se for seta, F1, etc, o getch() precisa ser chamado duas vezes para pegar o código completo
                 tecla = getch();
             }
 
