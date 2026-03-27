@@ -71,7 +71,7 @@ int main()
     int contadorExplosao = 0;
     bool areaExplosao[7][7] = {false};
 
-    COORD cursorAux;
+    COORD cursorAux; // coordenada auxiliar para reposicionar o cursor para desenhar inimigo, bomba e explosao por cima do mapa.
 
     while(true){
         ///Posiciona a escrita no iicio do console
@@ -233,8 +233,8 @@ int main()
         cout << "WASD/Setas: mover | ESPACO: bomba | ESC: sair      ";
 
         ///executa os movimentos
-         if ( _kbhit() ){
-            tecla = getch();
+         if ( _kbhit() ){ // verifica se uma tecla foi pressionada, se sim, executa o movimento correspondente.
+            tecla = getch(); // pega o código da tecla pressionada.
 
             // tratamento de setas
             if (tecla == 0 || tecla == (char)224) { // se for seta, o getch() precisa ser chamado duas vezes para pegar o código completo
