@@ -8,7 +8,7 @@
 #include <ctime> // lib para usar time() e srand()
 #include <cstdlib> // lib para usar rand() e srand()
 
-using namespace std;
+using namespace  std;
 
 // Equipe: Gabriel Debiasi Meurer, Pedro Henrique Rondon, Victor Alexandre Andrade 
 int main()
@@ -233,7 +233,7 @@ int main()
         cout << "WASD/Setas: mover | ESPACO: bomba | ESC: sair      ";
 
         ///executa os movimentos
-         if ( _kbhit() ){ // verifica se uma tecla foi pressionada, se sim, executa o movimento correspondente.
+        if ( _kbhit() ){ // verifica se uma tecla foi pressionada, se sim, executa o movimento correspondente.
             tecla = getch(); // pega o código da tecla pressionada.
 
             // tratamento de setas
